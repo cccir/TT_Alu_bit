@@ -2,6 +2,7 @@
 
 # Tiny Tapeout Wokwi Project Template
 
+Wowki project for Four bit ALU using 7 segement display
 - [Read the documentation for project](docs/info.md)
 
 ## What is Tiny Tapeout?
