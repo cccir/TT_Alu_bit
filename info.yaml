@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
+  wokwi_id:     421025996760976385       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "ALU bit"      # Project title
+  author:       "CIT"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "4-bit ALU"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -15,24 +15,24 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "clock"
+  ui[1]: "opcode_0"
+  ui[2]: "opcode_1"
+  ui[3]: "opcode_2"
+  ui[4]: "operand_0"
+  ui[5]: "operand_1"
+  ui[6]: "operand_2"
+  ui[7]: "operand_3"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
+  uo[0]: "accumulator_0"
+  uo[1]: "accumulator_1"
+  uo[2]: "accumulator_2"
+  uo[3]: "accumulator_3"
   uo[4]: ""
   uo[5]: ""
   uo[6]: ""
-  uo[7]: ""
+  uo[7]: "carry flag"
 
   # Bidirectional pins
   uio[0]: ""
